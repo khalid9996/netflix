@@ -8,11 +8,16 @@
     width: 100%;
     max-height: 100px;
     margin-right: 10px;
-    transition: transform 450ms;
+    transition: all 450ms;
+    /* transition: transform 450ms; */
+    
+    
 }
 
 .row__poster:hover {
+    cursor: pointer;
     transform: scale(1.08);
+    box-shadow: 0 0 10px rgb(117, 117, 117);
     /* opacity: 1; */
 }
 
